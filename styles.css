@@ -7,14 +7,14 @@ body {
 }
 
 header {
-    background: #007BFF;
+    background:#333 #007BFF;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 nav {
-    background: #333;
+    background: #007BFF;
     color: white;
 }
 
@@ -41,7 +41,7 @@ section {
 }
 
 h1, h2, h3 {
-    margin: 10px 0;
+    margin: 11px 0;
 }
 
 footer {
