@@ -4,43 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio d'Ahmed Missaoui</title>
+    <!-- CSS personnalisé -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
+    <!-- Header avec Bootstrap classes -->
+    <header class="text-center py-4 bg-primary text-white">
         <h1>Ahmed Missaoui</h1>
         <h2>Développeur de logiciels</h2>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+
+    <!-- Navigation avec Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <section id="about">
-         <h2>À propos de moi</h2>
 
-        <p>Bonjour ! Je suis Ahmed, un développeur de logiciels passionné avec une expérience dans la création d'applications web et de solutions logicielles. J'aime résoudre des problèmes et créer du code efficace.</p>
+    <!-- Section À propos avec Bootstrap -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center">À propos de moi</h2>
+        <p class="text-center">Bonjour ! Je suis Ahmed, un développeur de logiciels passionné avec une expérience dans la création d'applications web et de solutions logicielles. J'aime résoudre des problèmes et créer du code efficace.</p>
+        <p class="text-center">Je maîtrise plusieurs langages de programmation, notamment :</p>
+    </section>
 
-        <p>Je maîtrise plusieurs langages de programmation, notamment :</p>
+    <!-- Section Compétences avec Bootstrap -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h3 class="text-center">Compétences</h3>
+            <ul class="list-unstyled text-center">
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Frameworks: Angular, Node.js, Vue.js</li>
+            </ul>
+        </div>
     </section>
-    <section id="skills">
-        <h3>Compétences</h3>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>Frameworks: Angular, Node.js, Vue.js</li>
-        </ul>
+
+    <!-- Section Contact avec Bootstrap -->
+    <section id="contact" class="container py-5">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center">Vous pouvez me contacter par email à : <a href="mailto:ahmed.missaoui@example.com">ahmed.missaoui617@gmail.com</a></p>
     </section>
-    <section id="contact">
-        <h3>Contact</h3>
-        <p>Vous pouvez me contacter par email à : <a href="mailto:ahmed.missaoui@example.com">ahmed.missaoui617@gmail.com</a></p>
-    </section>
-    <footer>
+
+    <!-- Footer avec Bootstrap -->
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Ahmed Missaoui. Tous droits réservés.</p>
     </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
